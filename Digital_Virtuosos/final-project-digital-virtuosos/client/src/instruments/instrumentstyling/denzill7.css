@@ -1,0 +1,55 @@
+.rectangle {
+    width: 1000px;
+    height: 250px;
+    background: brown;
+    margin-left: 50px;
+    margin-top: 0;
+  }
+
+  .holder {
+    padding-top: 50px;
+    display: flex;
+  }
+
+  .holder2 {
+    padding-top: 50px;
+    padding-right: 100px;
+  }
+
+  .string {
+    margin: auto;
+    width: 1000px;
+    height: 10px;
+    background: black;
+  }
+
+  .whiteText {
+    background-color: white;
+    margin: auto;
+  }
+
+  .blackText {
+    background-color: black;
+  }
+
+  .note {
+    text-align: center;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+  }
+
+  .note:hover{
+      background-color: gray;
+  }
+
+  .note:active{
+    background-color: black;
+}
+
+  .flex-container{
+      display: flex;
+      flex-direction: row;
+  }

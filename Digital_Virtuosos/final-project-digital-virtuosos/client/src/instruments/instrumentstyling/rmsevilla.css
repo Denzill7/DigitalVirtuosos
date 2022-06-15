@@ -1,0 +1,310 @@
+  .container {
+    content: '';
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 60%;
+    left: -10px;
+    width: 625px;
+    height: 120px;
+    transform: translateY(70%);
+  }
+
+  .container .Back1 {
+    position: absolute;
+    z-index: -1;
+    background-color: #FFDEAD;
+    box-shadow: 5px 4px 1px 1px #f7c57a, 6px 3px 1px 1px black;
+    width: 625px;
+    height: 40px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+    transform: rotate(3deg);
+    top: -10px;
+  }
+
+  .container .Back2 {
+    position: absolute;
+    z-index: -1;
+    background-color: #FFDEAD;
+    box-shadow: 5px 1px 1px #f7c57a, 6px 1px 1px black;
+    width: 625px;
+    height: 40px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+    transform: rotate(-3deg);
+    top: 100px;
+  }
+
+  .CKey {
+    background-color: #fcb2a9fa;
+    box-shadow: 5px 1px 1px #f79487fa, 6px 0px 0px black;
+    height: 280px;
+    width: 60px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .DKey {
+    background-color: #fcbe77fa;
+    box-shadow: 5px 1px 1px #fcb059fa, 6px 0px 0px black;
+    height: 270px;
+    width: 60px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .EKey {
+    background-color: #fffd80;
+    box-shadow: 5px 1px 1px #fffc60, 6px 0px 0px black;
+    height: 260px;
+    width: 60px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .FKey {
+    background-color: #94ff86;
+    box-shadow: 5px 1px 1px #73fd61, 6px 0px 0px black;
+    height: 240px;
+    width: 60px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .GKey {
+    background-color: #90f8ff;
+    box-shadow: 5px 1px 1px #68f5ff, 6px 0px 0px black;
+    height: 220px;
+    width: 60px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .AKey {
+    background-color: #b47efa;
+    box-shadow: 5px 1px 1px #a766fd, 6px 0px 0px black;
+    height: 200px;
+    width: 60px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .BKey {
+    background-color: #fcb2a9fa;
+    box-shadow: 5px 1px 1px #f79487fa, 6px 0px 0px black;
+    height: 170px;
+    width: 60px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+ 
+  .CKey .Screw1 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 16px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: 110px;
+  }
+
+  .CKey .Screw2 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 16px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: -6px;
+  }
+
+  .DKey .Screw3 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 18px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: 110px;
+  }
+
+  .DKey .Screw4 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 18px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: -6px;
+  }
+
+  .EKey .Screw5 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 19px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: 110px;
+  }
+
+  .EKey .Screw6 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 19px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: -6px;
+  }
+
+  .FKey .Screw7 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 17px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: 110px;
+  }
+
+  .FKey .Screw8 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 17px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: -6px;
+  }
+
+  .GKey .Screw9 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 17px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: 110px;
+  }
+
+  .GKey .Screw10 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 17px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: -6px;
+  }
+
+  .AKey .Screw11 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 17px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: 110px;
+  }
+
+  .AKey .Screw12 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 17px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: -6px;
+  }
+
+  .BKey .Screw13 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 17px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: 110px;
+  }
+
+  .BKey .Screw14 {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 17px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    top: -6px;
+  }
+  
+  .oscStyle {
+    margin-left: 10px;
+    padding-left: 4;
+    padding-top: 4;
+    display: flex;
+    transform: translateY(400%);
+  }

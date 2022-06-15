@@ -1,0 +1,154 @@
+.drum1{
+    position: relative;
+    margin-left:70px;
+    margin-top:10px;
+}
+.drum1 .top{
+    height:50px;
+    width: 170px;
+    background-color: white;
+    border-radius: 60px / 25px;
+    border-style: solid;
+    border-color: grey;
+    position: absolute;
+    top:-30px;
+}
+.drum1 .middle{
+    height: 70px;
+    width:170px;
+    background-color:	black;
+    border-right: solid;
+    border-left: solid;
+    border-color: grey;
+    position:absolute;
+}
+.drum1 .bottom{
+    height: 50px;
+    width: 170px;
+    background-color:black;
+    border-radius: 60px/25px;
+    border-style: solid;
+    border-color: grey;
+    position: absolute;
+    top: 50px;
+    box-shadow: 0px 0px 10px rgba(105, 101, 101, 0.75)
+}
+
+.drum2{
+        position: relative;
+        margin-left:300px;
+        margin-top:10px;
+}
+.drum2 .top{
+        height:50px;
+        width: 170px;
+        background-color: white;
+        border-radius: 60px / 25px;
+        border-style: solid;
+        border-color: grey;
+        position: absolute;
+        top:-30px; 
+}
+.drum2 .middle{
+        height: 70px;
+        width:170px;
+        background-color:	rgb(68, 19, 19);
+        border-right: solid;
+        border-left: solid;
+        border-color: grey;
+        position:absolute;
+}  
+.drum2 .bottom{
+        height: 50px;
+        width: 170px;
+        background-color:rgb(68,19,19);
+        border-radius: 60px/25px;
+        border-style: solid;
+        border-color: grey;
+        position: absolute;
+        top: 50px;
+        box-shadow: 0px 0px 10px rgba(105, 101, 101, 0.75)
+}
+.drum3{
+        position: relative;
+        margin-left:180px;
+        margin-top:135px;
+}
+.drum3 .top{
+        height:50px;
+        width: 170px;
+        background-color: white;
+        border-radius: 60px / 25px;
+        border-style: solid;
+        border-color: grey;
+        position: absolute;
+        top:-30px; 
+}
+.drum3 .middle{
+        height: 70px;
+        width:170px;
+        background-color:	rgb(116, 89, 89);
+        border-right: solid;
+        border-left: solid;
+        border-color: grey;
+        position:absolute;
+} 
+.drum3 .bottom{
+        height: 50px;
+        width: 170px;
+        background-color:rgb(116,89,89);
+        border-radius: 60px/25px;
+        border-style: solid;
+        border-color: grey;
+        position: absolute;
+        top: 50px;
+        box-shadow: 0px 0px 10px rgba(105, 101, 101, 0.75)
+}
+.cymbal4{
+        position: relative;
+        margin-left:500px;
+        margin-bottom:100px;
+}
+.cymbal4 .top{
+        height:100px;
+        width: 170px;
+        background-color: rgb(250, 224, 77);
+        border-radius: 60%;
+        border-style: solid;
+        border-color: rgb(241, 217, 79);
+        position: absolute;
+        top:-30px;
+        box-shadow: 0px 0px 10px rgba(105, 101, 101, 0.75);
+}
+.left-and-right::before{
+        content: '';
+        position: absolute;
+        background-color: grey;
+        width: 3px;
+        height:90%;
+        bottom: 0;
+        left: 45px;
+}
+.left-and-right::after{
+            content: '';
+            position: absolute;
+            background-color: grey;
+            width: 3px;
+            height:90%;
+            bottom: 0;
+            right: 50px;
+}
+ .left-and-right2::before{
+        content: '';
+        position: absolute;
+        background-color: black;
+        border-radius: 60%;
+        border-style: solid;
+        width: 5px;
+        height:5%;
+        left: 75px;
+        top: 40px;
+        box-shadow: 0px 0px 10px rgba(105, 101, 101, 0.75);
+}
+ 
+        
